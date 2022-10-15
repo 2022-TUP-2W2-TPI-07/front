@@ -14,7 +14,7 @@ describe('AltaComponentProveedorponent', () => {
     .compileComponents();
 
     fixture = TestBed.createComponent(AltaComponentProveedor);
-    component = fixture.componentInstance;
+    //component = fixture.componentInstance;
     fixture.detectChanges();
   });
 

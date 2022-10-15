@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {RouterModule} from "@angular/router"
+import {ReactiveFormsModule} from "@angular/forms"
 
 //usuario
 import { AltaComponent } from "../app/Usuario/alta/alta.component";
@@ -34,7 +35,8 @@ import {ModificarComponentProveedor} from "../app/Proveedor/modificar/modificar.
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule
+    RouterModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
